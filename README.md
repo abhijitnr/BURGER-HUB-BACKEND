@@ -50,3 +50,16 @@ Here is the files and folder structure, tech stack and libraries.
 - [package-lock.json](./package-lock.json)
 - [package.json](./package.json)
 - [README.md](./README.md)
+
+# About .env file
+
+To run the backend without any errors, you need to add the following fields in the .env file.
+
+- PORT
+- MONGODB_URL
+- GOOGLE_CLIENT_ID
+- GOOGLE_CALLBACK_URL
+- FRONTEND_URL
+- SESSION_SECRET
+- RAZORPAY_API_KEY
+- RAZORPAY_API_SECRET
