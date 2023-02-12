@@ -16,6 +16,11 @@ app.get("/", (req, res, next) => {
 // Listen server
 app.listen(process.env.PORT, () => {
   console.log(
-    `Server is running on http://localhost:${process.env.PORT}, in ${process.env.NODE_ENV} MODE`
+    `Server is running on http://localhost:${process.env.PORT}`
+    // , in ${process.env.NODE_ENV} MODE
   );
 });
+
+/* This is for package-lock.json */
+// "start": "SET NODE_ENV=production & node index.js",
+// "dev": "SET NODE_ENV=development & nodemon index.js"
